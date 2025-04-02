@@ -12,3 +12,23 @@ img,
 video {
   display: block;
 }
+
+:root {
+  --red: #7b0016;
+  --brown: #481f08;
+  --beige: #fffcf6;
+  --pink: #ffd8df;
+  --brown-40: #481f08;
+}
+
+h1 {
+  font-family: aabak-swash;
+  font-size: 128px;
+  font-weight: 600;
+}
+
+body {
+  font-family: PF Marlet Display;
+  font-size: 20px;
+  color: var(--red);
+}

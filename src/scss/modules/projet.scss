@@ -1,0 +1,19 @@
+.projet {
+  white-space: nowrap;
+  transform: rotate(90deg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.projet-titre {
+  font-size: 64px;
+}
+
+.col-xl-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

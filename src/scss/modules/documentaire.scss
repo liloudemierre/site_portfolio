@@ -3,6 +3,19 @@
 }
 
 .documentaire {
-  background-image: url("../image/documentaire-image.png");
+  background-image: url("../image/image-floue.png");
   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  color: var(--beige);
+}
+
+.documentaire-title {
+  margin-left: 42px;
+}
+
+.documentaire-description {
+  margin-left: 42px;
+  margin-top: 42px;
 }

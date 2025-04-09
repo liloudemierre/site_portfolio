@@ -1,4 +1,4 @@
-h1 {
+.homepage-title {
   font-size: 180px;
   white-space: nowrap;
 }
@@ -13,4 +13,9 @@ p {
   display: flex;
   flex-direction: column;
   gap: 21px;
+}
+
+.homepage {
+  margin-bottom: 120px;
+  margin-top: 150px;
 }

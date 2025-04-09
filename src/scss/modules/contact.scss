@@ -1,0 +1,39 @@
+.contact {
+  font-size: 32px;
+}
+
+.contact-title {
+  margin-top: 100px;
+}
+.contact-mail {
+  border-radius: 37px;
+  border: 1px solid #7b0016;
+  display: inline-flex;
+  padding: 15px 28px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 26px;
+  margin-top: 50px;
+}
+
+.contact-num {
+  border-radius: 37px;
+  border: 1px solid #7b0016;
+  display: inline-flex;
+  padding: 15px 28px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.contact-social {
+  font-size: 64px;
+  display: flex;
+  width: 356px;
+  height: 95px;
+  justify-content: center;
+  align-items: center;
+  gap: 49px;
+  flex-shrink: 0;
+  margin-top: 35px;
+}

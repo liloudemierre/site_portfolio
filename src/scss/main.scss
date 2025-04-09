@@ -12,8 +12,10 @@ $container-max-widths: (
 @import "modules/documentaire.scss";
 @import "modules/disposition.scss";
 @import "modules/nav.scss";
-@import "modules/titre-principal.scss";
+@import "modules/homepage.scss";
 @import "modules/projet.scss";
+@import "modules/about.scss";
+@import "modules/contact.scss";
 .row + .row {
   margin-top: 16px;
 }

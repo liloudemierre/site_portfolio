@@ -1,7 +1,3 @@
-.documentaire-titre {
-  color: var(--beige, #fffcf6);
-}
-
 .documentaire {
   background-image: url("../image/image-floue.png");
   background-repeat: no-repeat;
@@ -13,9 +9,42 @@
 
 .documentaire-title {
   margin-left: 42px;
+  margin-top: 40px;
+  -webkit-margin-bottom-collapse: 20px;
 }
 
 .documentaire-description {
   margin-left: 42px;
   margin-top: 42px;
+}
+
+.img-fit {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.documentaire-img-gauche {
+  height: 50%;
+  object-fit: cover;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.documentaire-img-droite {
+  height: 100vh;
+  object-fit: cover;
+  width: 100%;
+  margin-top: 45px;
+}
+
+.col-left {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.documentaire-text {
+  margin-top: 40px;
+  margin-bottom: 20px;
 }

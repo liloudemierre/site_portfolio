@@ -19,10 +19,30 @@ gsap.to(".project-animate", {
 
 const cursor = document.querySelector(".cursor");
 
+// Initial positions
+let mouseX = 0;
+let mouseY = 0;
+let cursorX = 0;
+let cursorY = 0;
+
 document.addEventListener("mousemove", (e) => {
-  cursor.style.top = `${e.clientY}px`;
-  cursor.style.left = `${e.clientX}px`;
+  mouseX = e.clientX;
+  mouseY = e.clientY;
 });
+
+// Animate cursor with delay
+function animateCursor() {
+  // Lerp (linear interpolation)
+  cursorX += (mouseX - cursorX) * 0.08;
+  cursorY += (mouseY - cursorY) * 0.08;
+
+  cursor.style.left = `${cursorX}px`;
+  cursor.style.top = `${cursorY}px`;
+
+  requestAnimationFrame(animateCursor);
+}
+
+animateCursor(); // Start animation
 
 document.addEventListener("mouseover", (e) => {
   const target = e.target;

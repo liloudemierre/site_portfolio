@@ -16,12 +16,7 @@ $container-max-widths: (
 @import "modules/projet.scss";
 @import "modules/about.scss";
 @import "modules/contact.scss";
+@import "modules/_cursor.scss";
 .row + .row {
   margin-top: 16px;
-}
-
-.row > .col,
-.row > [class^="col-"] {
-  background-color: rgba(86, 61, 124, 0.15);
-  border: 1px solid rgba(86, 61, 124, 0.2);
 }

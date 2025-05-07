@@ -1,4 +1,4 @@
-.projet {
+.project {
   white-space: nowrap;
   transform: rotate(90deg);
   display: flex;
@@ -10,26 +10,26 @@
   text-align: center;
 }
 
-.projet-titre {
+.project-titre {
   font-size: 64px;
 }
 
-.projet-image-container {
+.project-image-container {
   width: 100%;
   height: 100%;
   overflow: hidden;
 }
-.projet-image {
+.project-image {
   width: 100%;
   height: 100%;
   object-fit: cover;
   transition: transform 0.3s ease-in-out;
 }
 
-.projet-image:hover {
+.project-image:hover {
   transform: scale(1.1);
 }
 
-.projet-animate {
+.project-animate {
   margin-top: 70vh;
 }

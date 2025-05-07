@@ -1,0 +1,22 @@
+.cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 25px; // plus petit
+  height: 25px;
+  background: var(--pink); // plus léger
+  border-radius: 50%;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  transition: transform 0.2s ease, width 0.2s ease, height 0.2s ease,
+    background 0.2s ease;
+  z-index: 9999;
+  filter: blur(5px); // flou intense ici
+}
+
+.cursor.clickable {
+  width: 50px; // grossit quand survol
+  height: 50px;
+  background: var(--pink); // un peu plus visible au survol
+  filter: blur(10px); // encore plus flou quand actif
+}

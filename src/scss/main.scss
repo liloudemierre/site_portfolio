@@ -17,6 +17,11 @@ $container-max-widths: (
 @import "modules/about.scss";
 @import "modules/contact.scss";
 @import "modules/_cursor.scss";
+
+.row + .row {
+  margin-top: 16px;
+}
+
 .row + .row {
   margin-top: 16px;
 }

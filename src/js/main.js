@@ -10,7 +10,6 @@ gsap.to(".project-animate", {
     start: "top 85%",
     end: "bottom 60%",
     scrub: 0.1,
-    markers: true,
   },
   x: 0,
   duration: 2,
